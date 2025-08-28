@@ -1,0 +1,143 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+}
+/* mobile-header */
+.mobile-header
+{
+    width: 100%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    display: none;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background-color: white;
+}
+.mobile-menu-icon
+{
+    flex-basis: 10%;
+}
+.mobile-menu-logo
+{
+    flex-basis:90%;
+    text-align: center;
+}
+/* end */
+
+/* header */
+header 
+{
+    width: 100%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 0px 46px;
+    display: flex;
+    flex-wrap:wrap;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background-color: white;
+}
+.header-left
+{
+    flex-basis:50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header-left figure 
+{
+    flex-basis: 20%;
+}
+.header-left figure>a>img 
+{
+    display: block;
+}
+/* .header-left figure>img 
+{
+    width: 100%;
+} */
+.header-left>nav 
+{
+    flex-basis:80%;
+}
+.header-left>nav>ul
+{
+    display: flex;
+    gap: 34px;
+}
+.menu-item
+{
+    padding: 32px 0px;
+}
+.img-rotate 
+{
+    transform: rotate(90deg);
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.menu-link
+{
+    color: black;
+    position: relative;
+}
+.menu-link::after
+{
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 0%;
+    height: 1.5px;
+    background-color:#1e87f0;
+    transition: 0.5s;
+}
+.menu-item:hover .menu-link::after
+{
+    left: 0px;
+    width: 100%;
+}
+.header-right 
+{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.support-search>ul
+{
+    display: flex;
+    align-items: center;
+}
+.support-search>ul>li:first-child
+{
+    padding-right: 50px;
+    /* border-right: 1px solid grey; */
+}
+.support-search>ul>li:first-child a
+{
+    color:black;
+}
+.support-search>ul>li:nth-child(2)
+{
+    padding-left:20px;
+    border-left: 1px solid grey;
+    padding-left: 20px;
+}
+
+.header-left>nav>ul>li:hover .img-rotate 
+{
+    transform: rotate(-90deg);
+}
+.support-search>ul>li:first-child:hover .img-rotate 
+{
+    transform: rotate(-90deg);
+}
+/* end */

@@ -206,7 +206,7 @@ header
     letter-spacing: .06em;
     color: #232323;
     margin: 14px 0px;
-    border-bottom:1px solid #1877F2;
+    border-bottom:2px solid #1877F2;
 }
 .banner-mid-left-content>h2 
 {
@@ -264,7 +264,7 @@ header
     font-weight: 500;
     color: #232323;
     padding-bottom: 5px;
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid red;
 }
 .banner-right-content>h2
 {
@@ -287,6 +287,14 @@ header
     color: #666;
     font-weight: 400;
 }
+.whatsapp 
+{
+    border-bottom: 2px solid green !important;
+}
+.meta 
+{
+    border-bottom: 2px solid #1877F2 !important;
+}
 .banner-right-img 
 {
     flex-basis: 45%;
@@ -305,4 +313,82 @@ header
 {
     transform: scale(1.1,1.1);
 }
+/* end */
+
+/* banner-section-2 */
+.banner-section-2
+{
+    width: 100%;
+    background-color: #F1F2F4;
+}
+.banner-mid-2 
+{
+    max-width: 1320px;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.banner-mid-2-content
+{
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.banner-mid-2-content>h4>span
+{
+    padding-bottom: 3px;
+    font-size:18px;
+    font-weight: 400;
+    letter-spacing: .06em;
+    color: #232323;
+    border-bottom:2px solid #1877F2;
+}
+.banner-mid-2-content>h2
+{
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 1.8px;
+    font-weight: 400;
+    transition: 0.5s;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.banner-mid-2-content>h2:hover
+{
+    color: #666;
+}
+.banner-mid-2-content>p
+{
+    color: #666;
+    letter-spacing:0.8px;
+}
+.banner-mid-2-content>h5 
+{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing:0.14px;
+    line-height: 18px;
+    color: #666;
+}
+.banner-mid-2-img
+{
+    flex-basis: 48%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.banner-mid-2-img>img
+{
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+.banner-mid-2-img:hover.banner-mid-2-img>img
+{
+    transform: scale(1.1,1.1);
+}
+
 /* end */

@@ -85,6 +85,48 @@
     {
         flex-basis: 100%;
     }
+    .recent-mid
+    {
+        padding: 20px;
+    }
+    .recent-news-item
+    {
+        display: none;
+    }
+    .mobile-filter 
+    {
+        display:flex;
+        justify-content: center;
+    }
+    .mobile-recent-new-heading
+    {
+        display:block;
+    }
+    .recent-news-content
+    {
+        flex-basis: 100%;
+    }
+    .recent-news-content-item
+    {
+        margin-bottom:40px;
+    }
+    .recent-content
+    {
+        flex-basis: 40%;
+    }
+    .recent-content>h2
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .recent-content>p
+    {
+        display: none;
+    }
+    .recent-img
+    {
+        flex-basis:50%;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.8px)
 {
@@ -161,6 +203,48 @@
     {
         flex-basis: 100%;
     }
+    .recent-mid
+    {
+        padding: 20px;
+    }
+    .recent-news-item
+    {
+        display: none;
+    }
+    .mobile-filter 
+    {
+        display:flex;
+        justify-content: center;
+    }
+    .mobile-recent-new-heading
+    {
+        display:block;
+    }
+    .recent-news-content
+    {
+        flex-basis: 100%;
+    }
+    .recent-news-content-item
+    {
+        margin-bottom:40px;
+    }
+    .recent-content
+    {
+        flex-basis: 40%;
+    }
+    .recent-content>h2
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .recent-content>p
+    {
+        display: none;
+    }
+    .recent-img
+    {
+        flex-basis:50%;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.8px)
 {
@@ -221,6 +305,10 @@
     {
         padding: 20px;
     }
+    .recent-mid
+    {
+        padding: 20px;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1199.8px)
 {
@@ -269,6 +357,10 @@
     {
         padding: 20px;
     }
+    .recent-mid
+    {
+        padding: 20px;
+    }
 }
 @media only screen and (min-width:1200px) and (max-width:1350.8px)
 {
@@ -289,6 +381,10 @@
         padding:20px;
     }
     .banner-mid-2
+    {
+        padding: 20px;
+    }
+    .recent-mid
     {
         padding: 20px;
     }

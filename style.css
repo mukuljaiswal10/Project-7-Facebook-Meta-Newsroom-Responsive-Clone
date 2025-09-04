@@ -591,3 +591,43 @@ header
     color:#666;
 }
 /* end */
+
+/* press-link-section */
+.press-link-section
+{
+    width: 100%;
+    background-color: #F1F2F4;
+}
+.press-link-mid 
+{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    padding: 50px 0px;
+}
+.press-link>h3>a 
+{
+    font-size: 24px;
+    color: #344854;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.press-link>h3>a:hover 
+{
+    color: #666;
+}
+.press-link-item>h3>a 
+{
+    font-size:15px;
+    color: black;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.press-link-item>h3>a:hover 
+{
+    color: #666;
+}
+/* end */
